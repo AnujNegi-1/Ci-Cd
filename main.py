@@ -21,3 +21,4 @@ lr.fit(x_train, y_train)
 y_pred=lr.predict(x_test)
 from sklearn.metrics import r2_score
 r2_score(y_test , y_pred)
+
